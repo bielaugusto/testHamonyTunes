@@ -1,7 +1,7 @@
 const express = require('express');
 const mysql = require('mysql');
 
-const bodyParser = require('body-parser'); // Pacote para facilitar o manuseio de dados JSON no corpo das requisições
+const bodyParser = require('body-parser'); 
 
 const app = express();
 
@@ -69,7 +69,6 @@ app.get('/enderecos', (req, res) => {
     });
   });
   
-  // Você pode adicionar rotas para outras tabelas da mesma maneira
   
 
 /*app.listen(PORT, () => {
